@@ -1,5 +1,5 @@
 ﻿#include "raylib_pb_helper.h"
 
-void pbhelper_SetShapesTexture(Texture2D* texture, Rectangle* source) {
-    if( texture && source ) SetShapesTexture(*texture, *source);
+void pbhelper_SetShapesTexture(Texture2D* texture, Rectangle* sourceRec) {
+    if( texture && sourceRec ) SetShapesTexture(*texture, *sourceRec);
 }

@@ -564,10 +564,10 @@ Module raygui
             EndIf
 
             guiFont\baseSize   = *in_font\baseSize
-            guiFont\charsCount = *in_font\charsCount
+            guiFont\glyphCount = *in_font\glyphCount
             guiFont\texture    = *in_font\texture
             guiFont\recs       = *in_font\recs  ; TODO: need to copy?
-            guiFont\chars      = *in_font\chars ; TODO: need to copy?
+            guiFont\glyphs     = *in_font\glyphs ; TODO: need to copy?
             GuiSetStyle(#DEFAULT, #TEXT_SIZE, *in_font\baseSize)
         EndIf
     EndProcedure
@@ -578,10 +578,10 @@ Module raygui
         
         If *out_result
             *out_result\baseSize   = guiFont\baseSize
-            *out_result\charsCount = guiFont\charsCount
+            *out_result\glyphCount = guiFont\glyphCount
             *out_result\texture    = guiFont\texture
             *out_result\recs       = guiFont\recs  ; TODO: need to copy?
-            *out_result\chars      = guiFont\chars ; TODO: need to copy?
+            *out_result\glyphs      = guiFont\glyphs ; TODO: need to copy?
         EndIf
     EndProcedure
 
@@ -1604,3 +1604,10 @@ EndModule
 
 
 DisableExplicit
+
+; IDE Options = PureBasic 6.00 LTS (Linux - x64)
+; CursorPosition = 583
+; FirstLine = 576
+; Folding = ---------
+; EnableXP
+; DPIAware

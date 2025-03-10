@@ -1,10 +1,4 @@
-﻿<img align="left" src="https://github.com/D-a-n-i-l-o/raylib-purebasic/blob/master/raylib-purebasic.png" width=256>
-
-[PureBasic](https://www.purebasic.com/) import for using the cross-platform [raylib](https://www.raylib.com/) videogames programming library.
-
-<br><br><br><br><br><br><br><br>
-
-# raylib-purebasic
+﻿# raylib-purebasic
 
 ## License
 
@@ -13,3 +7,8 @@ raylib and raylib-purebasic are licensed under an unmodified zlib/libpng license
 raylib is Copyright (c) 2013-2020 Ramon Santamaria (@raysan5)
 
 raylib-purebasic is Copyright (c) 2020 Danilo Krahn
+
+->Update: 02.2023 - ccode_new :)
+->Works on: Windows-64bit, Raspberry Pi OS (64-bit), Ubuntu (64-bit), MacOS-x64, MacOS-arm64 (M1+)
+->Bugs included :)
+

@@ -1,5 +1,5 @@
 ﻿#include "raylib_pb_helper.h"
 
-void pbhelper_ImageDrawText(Image *dst, Vector2* position, const char *text, int fontSize, Color color) {
-    if( dst && position && text ) ImageDrawText(dst, *position, text, fontSize, color);
+void pbhelper_ImageDrawText(Image *dst, const char *text, int posX, int posY, int fontSize, Color color) {
+    if( dst && text ) ImageDrawText(dst, text, posX, posY, fontSize, color);
 }
